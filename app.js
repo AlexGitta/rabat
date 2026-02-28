@@ -70,7 +70,7 @@ const TRIP = {
         { time: '10:30–1:00',  activity: 'Villa des Arts',           detail: 'Art nouveau building with rotating contemporary art exhibitions. Peaceful gardens. Very cheap entry. Close to the Airbnb.', imageKey: 'villa', mapsQuery: 'Villa des Arts Rabat Morocco' },
         { time: '1:00–3:00',   activity: 'Lunch & Relax',           detail: 'Pick up ingredients and cook something together at the Airbnb.' },
         { time: '3:00–5:30',   activity: 'Hammam at Dar El Kebira',  detail: 'A 17th-century riad in the medina offering a traditional hammam experience – steam, black soap scrub, and relaxation. Website: dar-el-kebira.com · Book in advance by email or phone – contact details on their website.', mapsQuery: 'Dar El Kebira Rabat Morocco' },
-        { time: '7:30–9:30',   activity: 'Dinner at Dinarjat',      detail: "Hidden behind an unmarked heavy wooden door on Boulevard el Alou – a 17th-century riad. Live music in the courtyard, Moroccan cuisine (lamb tagine tfaya, veal jarret, pastilla). Book ahead – essential. ~300–400 MAD/pp.", imageKey: 'dinarjat', mapsQuery: 'Dinarjat Restaurant Rabat Morocco' },
+        { time: '7:30–9:30',   activity: 'Dinner at Dinarjat',      detail: "Hidden behind an unmarked heavy wooden door on Boulevard el Alou – a 17th-century riad. Live music in the courtyard, Moroccan cuisine (lamb tagine tfaya, veal jarret, pastilla). Book ahead – essential.", imageKey: 'dinarjat', mapsQuery: 'Dinarjat Restaurant Rabat Morocco' },
         { time: '10:00+',      activity: 'Last Night Out',           detail: "Walk back through the medina's alleyways after dinner." }
       ],
     },

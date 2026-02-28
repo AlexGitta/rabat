@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Rabat Holiday Plan</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#4A1010" />
+
+  <!-- iOS PWA support -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Rabat" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Splash screen -->
+  <div id="splash" aria-hidden="true">
+    <svg class="splash-star" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,5 56.87,33.37 81.82,18.18 66.63,43.13 95,50 66.63,56.87 81.82,81.82 56.87,66.63 50,95 43.13,66.63 18.18,81.82 33.37,56.87 5,50 33.37,43.13 18.18,18.18 43.13,33.37"/>
+    </svg>
+    <p class="splash-label">MOROCCO</p>
+    <h1 class="splash-title">Rabat</h1>
+    <p class="splash-dates">11 – 15 March 2026</p>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-pattern" aria-hidden="true"></div>
+    <div class="header-content">
+      <svg class="header-star" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="50,5 56.87,33.37 81.82,18.18 66.63,43.13 95,50 66.63,56.87 81.82,81.82 56.87,66.63 50,95 43.13,66.63 18.18,81.82 33.37,56.87 5,50 33.37,43.13 18.18,18.18 43.13,33.37"/>
+      </svg>
+      <p id="subtitle" class="header-subtitle"></p>
+      <h1 id="destination"></h1>
+      <div class="header-rule">
+        <span></span>
+        <svg viewBox="0 0 12 12" width="10" height="10"><rect x="1" y="1" width="10" height="10" transform="rotate(45 6 6)" fill="currentColor"/></svg>
+        <span></span>
+      </div>
+      <p id="dates" class="header-dates"></p>
+    </div>
+  </header>
+
+  <!-- Main content card -->
+  <main>
+    <div id="days"></div>
+
+    <section class="ref-section">
+      <h2 class="section-title"><span>Restaurants</span></h2>
+      <div id="restaurants"></div>
+    </section>
+
+    <section class="ref-section">
+      <h2 class="section-title"><span>Key Sights</span></h2>
+      <div id="sights"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
